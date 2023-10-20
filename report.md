@@ -15,7 +15,13 @@ Definition 2: $K(x/y) \approx C(x|y) = \sum_{i=1} q_i(x_i), q_i(x_i) = \phi (y,x
 
 x,y文本的相似性M为：
 
-![image](https://github.com/AlbertLin0/ArxivSchedulePaper/assets/58505644/077cd859-93bb-4be9-b197-a7d64c16f328)
+
+```math
+M_{max}(x,y) = \frac{max{K(x|y), K(y|x)}}{max{K(x),K(y)}}
+```
+```math
+M_{min}(x,y) = \frac{min{K(x|y), K(y|x)}}{min{K(x),K(y)}}
+```
 
 
 ###### 特点
